@@ -5,6 +5,16 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  },
+  "version": "1.0.0",
+  "description": "In this assignment, you are tasked with creating a login endpoint for a social media application that provides personalized content to its users. The endpoint will accept a user's credentials (either a username or email along with a password) and authenticate them by comparing the provided password against the securely stored hashed password.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
